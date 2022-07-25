@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/style.css">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -11,8 +14,156 @@
 <body>
     {% include 'header.njk' %}
     <main>
-    {{ content | safe }}
+      <div id="hero-section">
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+            <h1 class="text-align-left"><span class="highlight">SEO results</span><br> within your 
+               <span class="highlight">budget</span></h1>
+            <p class="hero-text">SEO doesn't have to cost a premium if you know what you're doing. We want to work with you to create an SEO plan that can help you to become more visible online, drive more traffic, and improve your rankings.</p>
+            <div class="h3-hero my-5">
+            <h3 class="h3-1"><img src="/img/pencil-square.svg" class="hero-icon" alt="pencil square icon"> Blog posts with a purpose - drive traffic</h3>
+            <h3 class="h3-2"><img src="/img/bar-chart-fill.svg" alt="bar chart icon"> Keyword rich content that will actually rank</h3>
+            <h3 class="h3-3"><img src="/img/google.svg" alt="google logo icon"> Google Business Profile optimisation</h3>
+            </div>
+            <button class="button-main"><a href="#">let's have a discussion</a></button>
+        </div>
+        <div class="col-lg-6 col-md-4 col-sm-12 px-5">
+            <img src="/img/man_pointing_at_graph_orange.svg" alt="placeholder SEO image">
+        </div>
+    </div>
+</div>
+</div>
+<!--End of Hero sections  -->
+<!-- Start of three cards section -->
+<section id="three-cards py-5">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-center py-4">
+              <img class="three-cards-icon" src="/img/pen-fill.svg" alt="black pen icon">
+            <div class="card-body">
+              <h3 class="card-title">SEO content</h3>
+              <p class="card-text py-3">We use competitor analysis and search result data to lead our copywriting to help you rank on the first page of Google, and get more traffic.</p>
+              <button class="button-main-md"><a href="#">find out more</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-center text-center py-4">
+              <img class="three-cards-icon" src="/img/sort-up.svg" alt="arrow poitning up next to three bars">
+            <div class="card-body">
+              <h3 class="card-title">keyword ranking</h3>
+              <p class="card-text py-3">We'll find keywords for you to target that will benefit your business, and improve your existing keyword rankings.</p>
+              <button class="button-main-md"><a href="#">find out more</a></button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-center py-4">
+              <img class="three-cards-icon" src="/img/briefcase-fill.svg" alt="black briefcase icon">
+            <div class="card-body">
+              <h3 class="card-title">Google profile</h3>
+              <p class="card-text py-3"><strong>*Formerly Google Business</strong> We'll improve your Google Maps visibility, and improve upon the amount of searches you receive as well.</p>
+             <button class="button-main-md"><a href="#">find out more</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</section>
+<!-- end of three cards section -->
+<!-- Start of service descriptions -->
+<section id="service-descriptions" class="py-5">
+    <div class="container">
+        <h2 class="text-center py-5 service-desc-title"><span class="highlight">Improve your rankings</span> on Google... Or <span class="highlight">get started</span> with us</h2>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card card-blank">
+                    <img class="service-desc-img" src="/img/undraw_design_components_9vy6.svg" alt="design components for blog post">
+                  <div class="card-body">
+                    <h3 class="card-title">On-page optimisation</h3>
+                    <p class="card-text py-3">Whether you're trying to improve your existing rankings or want to start developing new ones, we're here to help. Our on-page optimisation can help newcomers to SEO or businesses who are looking for that extra push to get on to the first page of Google. We analyse what your competitors are doing and use their top performing pages to inform us as to which keywords we need, and how many of them we need to use.</p>
+                   <button class="button-no-bg"><a href="#">find out more...</a></button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card card-blank">
+                    <img class="service-desc-img img-2" src="/img/man_pointing_at_web_browser.svg" alt="man pointing at web browser">
+                  <div class="card-body">
+                    <h3 class="card-title">Keyword research strategy</h3>
+                    <p class="card-text py-3">We don't want to waste your time with keywords that don't make sense for your business. We develop a plan to target keywords that are appropriate for your domain authority level and build upon these keywords until we're ready to progress. We won't fill your head with dreams and set unrealistic goals, we'll be <strong>100% transaprent</strong> with what you can expect and with our service. If you have any questions, we'd love to discuss them with you.</p>
+
+                   <button class="button-no-bg"><a href="#">find out more...</a></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card card-blank">
+                    <img class="service-desc-img img-2" src="/img/map with location pin.svg" alt="man pointing at web browser">
+                  <div class="card-body">
+                    <h3 class="card-title">optimising beyond keywords</h3>
+                    <p class="card-text py-3">ranking for keywords through articles and service pages aren't the only factors towards a successful SEO strategy. As a local business, you want to be seen by your customers, a large majority of them will be finding your place of business on <strong>Google Business Profile</strong>. Optimising your Google Profile listing will help you reach customers who are looking to visit your business and at the end of their customer journey. We'll help you tap into the people who are trying to find you.</p>
+                   <button class="button-no-bg"><a href="#">find out more...</a></button>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card card-blank">
+                    <img class="service-desc-img img-2" src="/img/three houses on orange background.svg" alt="man pointing at web browser">
+                  <div class="card-body">
+                    <h3 class="card-title">building relevance</h3>
+                    <p class="card-text py-3">Targeting a single keyword isn't going to be enough. You need to create a large amount of content around your chosen niche/subject to be able to show Google your relevance towards the topic. This is done by creating <strong>content clusters</strong>. By developing content around relevant search queries and long-tail keywords, you can build a website that will help your customers and perform well on Google. Content is king, the more detailed and relevant it is... the better.</p>
+                   <button class="button-no-bg"><a href="#">find out more...</a></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of service descriptions -->
+<!-- Start of Contact information -->
+<section id="contact-info" class="py-5">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-6 col-md-8 col-sm-12">
+            <h2 class="contact-info-title">See how SEO can<br> help your business</h2>
+            <p class="hero-text">
+                We love talking SEO and we're not afraid to be transparent about what is and isn't achievable. We run you through exactly what we plan on doing, report the results, and include you within the conversation as to what actions we're taking and why. If you're interested in improving your rankings, or achieving new ones, get in touch today.
+            </p>
+            <div class="contact-info-ul">
+                <span class="contact-info-li"><a href="#"><img src="/img/phone-fill.svg" alt="mobile phone icon" width="30px"> Telephone number</a></li>
+                <span class="contact-info-li"><a href="mailto:welcome@apatitemedia.co.uk"><img src="/img/envelope-check-fill.svg" alt="black envelope icon" width="30px"> welcome@apatitemedia.co.uk</a></li>
+                <span class="contact-info-li"><a href="#"><img src="/img/geo-fill.svg" alt="location pin icon" width="30px"> Our address</a></li>
+            </div>
+            <div class="button-div my-4">
+            <button class="button-main"><a href="#">or send us a question</a></button>
+            </div>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-12 contact-info-white">
+                <img src="/img/undraw_pie_graph_re_fvol-svg.svg" alt="pie graph with person pointing">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of contact information -->
+<!-- Start of contact form section -->
+<section id="contact-form">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 py-5">
+                <h2 class="contact-info-title">Have a question for us? Leave us a message</h2>
+                [Enter contact form 7 form here]
+            </div>
+        </div>
+    </div>
+</section>
     </main>
+    {# To bring in main content add this #}
+    {# {{ content | safe }} #}
     {% include 'footer.njk' %}
 
     <script>
